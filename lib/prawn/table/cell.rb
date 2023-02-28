@@ -216,7 +216,7 @@ module Prawn
 
         # Set defaults; these can be changed by options
         @padding       = [5, 5, 5, 5]
-        @borders       = [:top, :bottom, :left, :right]
+        @borders       = []
         @border_widths = [1] * 4
         @border_colors = ['000000'] * 4
         @border_lines  = [:solid] * 4
